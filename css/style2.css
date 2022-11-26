@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #55ffe5;
+    font-size: 14px;
+ 
+    font-family: 'Roboto Mono', monospace;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+      
+}
+.contact-box{
+    background-color: white;
+    display: flex;
+    border-radius: 30px;
+}
+.contact-left{
+    flex-basis: 20%;
+    padding: 40px;
+    background-color: #222;
+    color: #fff;
+ 
+}
+.contact-right{
+    flex-basis: 70%;
+    padding: 40px 60px;
+}
+.h1{
+    margin-bottom: 10px;
+}
+.container p{
+    margin-bottom: 40px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+
+}
+input{
+    width: 102%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #1c00b5;
+}
+textarea{
+    width: 90%;
+    border: 1px solid #ccc;;
+    outline: none;
+    padding: 10px;
+
+}
+.contact-left h3{
+    color: #1c00b5;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+select{
+    
+    width: 102%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+    height: 30px;
+}
+@media (max-width:584px) {
+    .contact-right{
+        max-width: 100%;
+
+    }
+}
